@@ -1,0 +1,11 @@
+[package]
+name = "dyper"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["http"]
+http = []
+
+[dependencies]
+nom = { version = "7", default-features = false }
